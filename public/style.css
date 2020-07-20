@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  font-family: 'Geostar Fill', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: paleturquoise;
+  margin: 0 auto;
+}
+
+#welcome-img {
+  width: 50%;
+}
+
+.nav-bar {
+  width: 50%;
+  margin-top: 1em;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  font-size: 2em;
+  margin: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.missions {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.header,
+#about-text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.8em auto;
+  line-height: 1.5em;
+}
+
+.missions h2 {
+  font-family: 'Geostar Fill', cursive;
+}
+
+article {
+  margin: 1em auto;
+}
+
+.missions,
+#about-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  font-size: 1.3em;
+  width: 60%;
+  text-align: center;
+}
+
+#about-img {
+  display: block;
+  width: 20%;
+  margin-left: 1.5em;
+}
